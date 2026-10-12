@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark body {
+    @apply bg-brand-dark text-slate-100 font-sans antialiased;
+  }
+  html.light body {
+    @apply bg-blue-50 text-slate-800 font-sans antialiased;
+  }
+}
